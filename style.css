@@ -1,7 +1,7 @@
 .box{
   height:200px;
   background: yellow;
-    width: 200px;
+  width: 200px;
   border: 1px solid black;
 }
 
@@ -47,6 +47,15 @@
   --pale-peach: #ffecba;
   --coral: #ff4444;
 }
+*{
+  font-family: TitilliumWeb;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: 0.4px;
+}
   
 .header {
     color: white;
@@ -74,16 +83,21 @@ nav.navbar{
   width: 293px;
   height: 70px;
   border-radius: 4px;
-  background-color: #eb7d4b;
-  background-color: var(--dusty-orange);
   color:white;
   font-size: 17.5px;
   font-weight: 600;
+  margin-bottom:110px;
+  margin-top:60px;
 }
+.
 .underbutton{
-background-color: #eb7d4b;
-border-bottom: 4px solid #b26a44;
+;
 margin-bottom:145px;
+}
+.button-1{
+  background-color: #eb7d4b;
+  background-color: var(--dusty-orange);
+  border-bottom: 4px solid #b26a44;
 }
 .services{
   background-color: #17c2a4;
@@ -114,20 +128,12 @@ margin-bottom:145px;
   margin-bottom:32px;
 }
 .ser-p{
-  font-size: 18px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.44;
-  letter-spacing: 0.4px;
   text-align: center;
   padding-bottom:80px;
 }
 .branding-s{
   font-size: 24px;
   font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
   line-height: 0.75;
   letter-spacing: 0.5px;
   padding-bottom:27px;
@@ -135,8 +141,6 @@ margin-bottom:145px;
 .branding-text{
   font-size: 16px;
   font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
   line-height: 1.5;
   letter-spacing: 0.3px;
   padding-bottom:128px;
@@ -167,21 +171,11 @@ margin-bottom:145px;
   margin-bottom:23px;
 }
 .portfolio-p{
-  font-size: 18px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.44;
-  letter-spacing: 0.4px;
-  padding-bottom:42px;
+ padding-bottom:42px;
 }
 #nav-s{
   background-color: #ffdd99;
   background-color: var(--dark-cream);
-  font-size: 18px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
   line-height: 1.11;
   letter-spacing: 0;
   color:black;
@@ -203,6 +197,7 @@ margin-bottom:145px;
   line-height: 1.54;
   letter-spacing: 0.3px;
   color:white;
+  border-bottom: 4px solid #17c2a4;
 }
 .getintouch {
    background-color: #3c5499;
@@ -221,16 +216,11 @@ margin-bottom:145px;
   padding-bottom:21px;
 }
 .git-p{
-  font-size: 18px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.44;
-  letter-spacing: 0.4px;
   text-align: center;
+  margin-bottom:76px;
 }
 .git-line {
-   width: 87px;
+  width: 87px;
   height: 4px;
   background-color: var(--dark-slate-blue);
   border-bottom: 4px solid #273a71;
@@ -238,3 +228,24 @@ margin-bottom:145px;
   margin-right: auto;
   margin-bottom:32px;
 }
+#example-text-input{
+  background-color: #273a71;
+  background-color: var(--dark-slate-blue);
+  color:white;
+}
+.button-3{
+  background-color: #30bae7;
+  background-color: var(--dark-sky-blue);
+  border-bottom: 4px solid #30bae7;
+}
+.flex{
+  display:flex;
+  justify-content:center;
+}
+.footer-main{
+  background-color: #344b8e;
+  background-color: var(--denim-blue-two);
+  
+}
+
+
