@@ -13,6 +13,9 @@ body{
 h1,h3,h2{
   padding-bottom: 50px;
 }
+.text-black{
+  color:black;
+}
 div+p{
   padding-bottom: 25px;
 }
