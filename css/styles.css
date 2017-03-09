@@ -9,6 +9,7 @@
 }
 body{
   background:url("../img/background.jpg") no-repeat center top #f9fafc;
+   background-attachment: fixed;
 }
 h1,h3,h2{
   padding-bottom: 50px;
@@ -36,7 +37,6 @@ border-bottom: 1px solid grey;
 text-align: center;
 }
 .info-part{
-  text-align: center;
   margin-top: 40px;
   padding-bottom: 80px;
   border-bottom: 1px solid grey;
@@ -45,6 +45,9 @@ text-align: center;
   margin-top: 80px;
   padding-bottom: 80px;
   text-align: center;
+  border-bottom: 1px solid grey;
+}
+.news-part{
   border-bottom: 1px solid grey;
 }
 .cardio-img-bypass{
@@ -182,4 +185,9 @@ text-align: center;
 }
 .blog-footer p:last-child {
  margin-bottom: 0;
+}
+.main-footer {
+ padding: 40px 0;
+ color: #999;
+ text-align: center;
 }
