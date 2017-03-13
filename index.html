@@ -1,51 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ua">
 <head>
-  <title>LRCC</title>
+  <title>Львівський обласний кардіологічний центр</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="css/bootstrap.min.css" rel= "stylesheet">
   <link href="css/styles.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
 </head>
-<body>
-<nav class="navbar navbar-fixed-top navbar-default" role="navigation">
 
-<div class="container">
-    <div class="navbar-header">
+<body>
+  <nav class="navbar navbar-fixed-top navbar-default" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="index.html">Львівський обласний кардіологічний центр</a>
+        <a class="navbar-brand hidden-xs hidden-sm" href="index.html" class="as">Львівський обласний кардіологічний центр</a>
+        <a class="navbar-brand visible-xs-block visible-sm-block" href="index.html">ЛОКЦ</a>
       </div>
 
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-       <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Про нас</a></li>
-          <li><a href="news.html">Новини</a></li>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="news/default-news.html">Новини</a></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Відділення <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-              <li><a href="#">1 кардіологічне відділення</a></li>
-              <li><a href="#">Відділення інтервенційної кардіології</a></li>
-              <li><a href="#">3 кардіологічне відділення</a></li>
-              <li><a href="#">Інфарктне відділення</a></li>
-              <li><a href="cardio.html">Відділення кардіохірургії</a></li>
-              <li><a href="#">Анестезіологічне відділення</a></li>
+              <li><a href="#">1 кардіологічне</a></li>
+              <li><a href="#">3 кардіологічне</a></li>
+              <li><a href="#">Інтервенційної радіології</a></li>
+              <li><a href="#">Інфарктне</a></li>
+              <li><a href="#">Елетрофізіологічних обстежень серця</a></li>
+              <li><a href="cardio.html">Кардіохірургічне</a></li>
+              <li><a href="#">Анестезіології і інтенсивної терапії</a></li>
+              <li><a href="#">Диспансерне</a></li>
               <li class="divider"></li>
               <li><a href="#">Адміністрація</a></li>
             </ul>
           </li>
         </ul>
       </div><!-- /.navbar-collapse -->
-     </nav>
     </div><!-- /.container -->
-<div class="container image-part">
-  <div id="carousel" class="carousel slide" data-ride="carousel">
+  </nav>
+
+<!--         Carousel        -->
+  <div class="container">
+    <div class="image-part">
+      <div id="carousel" class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
                   <li data-target="#carousel" data-slide-to="0"></li>
                   <li data-target="#carousel" data-slide-to="1"></li>
@@ -54,26 +58,27 @@
               <div class="carousel-inner">
                   <div class="item">
                       <a href="cardio.html">
-                      <img src="img/cardio.jpg" class="center-block img-responsive img-thumbnail" alt="Slide 1">
-                      <div class="carousel-caption text-black">
-                      <p>Відділення кардіохірургії</p>
-                      </div>
+                        <img src="img/cardio.jpg" class="center-block img-responsive img-thumbnail" alt="Slide 1">
+                        <div class="carousel-caption text-black">
+                          <p>Відділення кардіохірургії</p>
+                        </div>
                       </a>
-
                   </div>
                   <div class="item">
-                      <a href="news.html">
-                      <img src="img/doctors.jpg" class="center-block img-responsive img-thumbnail" alt="Slide 2">
-                      <div class="carousel-caption text-black">
-                      <p>Новини</p>
-                      </div>
+                      <a href="news/default-news.html">
+                        <img src="img/doctors.jpg" class="center-block img-responsive img-thumbnail" alt="Slide 2">
+                        <div class="carousel-caption text-black">
+                          <p>Новини</p>
+                        </div>
                       </a>
                   </div>
                   <div class="item active">
-                      <img src="img/clinic.jpg" class="center-block img-responsive img-thumbnail" alt="Slide 3">
-                      <div class="carousel-caption">
-                      <p>Про нас</p>
-                      </div>
+                      <a href="#">
+                        <img src="img/clinic.jpg" class="center-block img-responsive img-thumbnail" alt="Slide 3">
+                        <div class="carousel-caption">
+                          <p>Про нас</p>
+                        </div>
+                      </a>
                   </div>
               </div>
               <a href="#carousel" class="left carousel-control" data-slide="prev">
@@ -82,68 +87,82 @@
               <a href="#carousel" class="right carousel-control" data-slide="next">
                   <span class="glyphicon glyphicon-chevron-right"></span>
               </a>
-          </div>
-    </div>
+        </div>
+      </div><!--  End of image part -->
+    </div><!--    End of Carousel   -->
 
 <!--                 Information part              -->
 
-<div class="container info-part">
-  <div class="row">
-  <h1 class="text-center">Львівський обласний кардіологічний центр</h1>
-  <p>В кардіоцентрі функціонують 4 стаціонарні відділення на 220 ліжок,  з них 60 ліжок інфарктного відділення з палатою інтенсивної терапії на 8 ліжок,  та 3 кардіологічні  на 160 ліжок . Працюють відділення функціональної діагностики, клініко- діагностична лабораторія, диспансерне відділення, рентгенкабінет, кабінет рентгенопераційної.
-Метою діяльності центру є забезпечення в повному обсязі висококваліфікованої і спеціалізованої стаціонарної та консультативно- діагностичної допомоги населенню.
-Центр надає діагностично-лікувальну допомогу населенню.
-Центр користується  правом для завершення діагностичного процесу і проведення спеціалізованого лікування, забезпечує організаційно-методичну  та консультативну допомогу лікувально-профілактичним установам області.
-Центр співпрацює з науковими та науково-дослідними установами охорони здоров’я, медичними товариствами, приймає участь у науково-практичних  семінарах , конференціях, організовує та проводить курси підвищення кваліфікації і стажування лікарів на базі центру.</p>
-</div>
-</div>
+  <div class="container">
+    <div class="info-part">
+      <h1 class="text-center">Львівський обласний кардіологічний центр</h1>
+      <p>Львівський обласний державний клінічний лікувально-діагностичний кардіологічний центр створений у 1995р.
+          Фінансується з обласного та державного бюджету.
+          Очолює заклад  Заслужений  лікар України  – Павлик Степан Степанович.
+          Метою діяльності центру є забезпечення надання високотехнологічної спеціалізованої стаціонарної та консультативно- діагностичної допомоги кардіологічного та кардіохірургічного профілю дорослому населенню Львівської області,  м.Львова, а також мешканцям інших областей та іноземцям.
+          Щороку у кардіоцентрі надається стаціонарна допомога більше ніж 6 тис. пацієнтам, консультативну допомогу отримують близько 30 тис. пацієнтів.
+          З 2008 року активно застосовуються процедури інтервенційних втручань (коронароангіографія, стентування, балонна ангіопластика тощо), в т.ч. при гострому інфаркті міокарда.
+          З 2012 року надається кардіохірургічна допомога та проводяться електрофізіологічні обстеження серця.
+          Центр забезпечує організаційно-методичну  та консультативну допомогу лікувально-профілактичним установам області, співпрацює з науковими та науково-дослідними установами охорони здоров’я, медичними товариствами, організовує та проводить науково-практичні  семінари, конференції для лікарів-кардіологів, сімейних лікарів, терапевтів, неврологів та лікарів інших спеціальностей, а також проводить стажування лікарів на базі центру. Установа є клінічною базою  ЛНМУ ім.Д.Галицького.
+          Лікарі центру регулярно проходять стажування та навчання у вітчизняних та закордонних клініках.
+          У  центрі працюють  3 Заслужених лікаря України та 6  кандидатів  медичних  наук.
+          Всього в  кардіоцентрі налічується 21 структурний підрозділ, в т.ч. функціонує 5 стаціонарних відділеннь на 210 ліжок.  </p>
+    </div><!-- End of information part -->
+  </div>
 
 <!--                     News                -->
 
-<div class="container news-part">
-
-  <div class="blog-header">
-    <h1 class="blog-title text-center">Новини</h1>
+<div class="container">
+  <div class="news-part">
+    <div class="blog-header">
+      <h1 class="blog-title text-center">Новини</h1>
     </div>
+    <div class="row">
+      <div class="col-sm-8 blog-main">
+        <div class="blog-post">
+          <h2 class="blog-post-title">Відкриття офіційного сайту ЛОКЦ</h2>
+          <p class="blog-post-meta">1 Квітня, 2017 від <a href="#">Admin</a></p>
 
-  <div class="row">
-
-    <div class="col-sm-8 blog-main">
-
-      <div class="blog-post">
-        <h2 class="blog-post-title">Зразок повідомлення</h2>
-        <p class="blog-post-meta">1 Січня, 2017 від <a href="#">Василь</a> =)</p>
-
-        <p>Це повідомлення в блозі демонструє кілька різних типів вмісту, які підтримуються та стилізуються з Bootstrap. Базова типографія, зображення - все це підтримується.</p>
-        <hr>
-        <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
-        <blockquote>
+          <p>Відкриття офіційного сайту Львівського обласного кардіологічного центру</p>
+          <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+          <blockquote>
           <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-        </blockquote>
-        <a href="news.html"><p>читати далі...</p></a>
+          </blockquote>
+          <a href="news.html"><p>читати далі...</p></a>
+        </div>
     </div>
-  </div>
- </div> <!--row-->
+   </div> <!--row-->
+  </div>  <!--   End of News Part -->
 </div> <!--contaner-->
 
   <!--                 Additional information part         -->
-  <div class="container add-part">
+  <div class="container">
+    <div class="add-part">
       <h3>Як нас знайти</h3>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4567.792774198049!2d23.996498919266696!3d49.83348512477829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaacd0575b695a616!2z0JvRjNCy0ZbQstGB0YzQutC40Lkg0L7QsdC70LDRgdC90LjQuSDQutC70ZbQvdGW0YfQvdC40Lkg0LrQsNGA0LTRltC-0LvQvtCz0ZbRh9C90LjQuSDRhtC10L3RgtGA!5e0!3m2!1suk!2sua!4v1488440562532" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
- </div>
-</div>
+      <div class="row">
+           <div class="col-md-8 google-maps">
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4567.792774198049!2d23.996498919266696!3d49.83348512477829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaacd0575b695a616!2z0JvRjNCy0ZbQstGB0YzQutC40Lkg0L7QsdC70LDRgdC90LjQuSDQutC70ZbQvdGW0YfQvdC40Lkg0LrQsNGA0LTRltC-0LvQvtCz0ZbRh9C90LjQuSDRhtC10L3RgtGA!5e0!3m2!1suk!2sua!4v1488440562532" frameborder="0" style="border:0" allowfullscreen></iframe>
+           </div>
+           <div class="col-md-3">
+            <p>Адреса:</p>
+            <p>79015, м. Львів, вул. Кульпарківська, 35 тел./ факс: 238-30-87, 238-33-41</p>
+            <p>E-mail:cardiolviv@gmail.com</p>
+            <hr>
+          </div>
+      </div><!--    End of row    -->
+    </div>
+  </div> <!--End Additional information part-->
 
-<div class="container">
-
-<footer class="main-footer">
-  <p>Львіський обласний кардіологічний центр</p>
-  <p>
-    <a href="#">Вгору</a>
-  </p>
-</footer>
-
-
-</div>
+  <!--                 Footer         -->
+  <div class="container">
+    <footer class="main-footer">
+      <p>Львіський обласний кардіологічний центр 2017</p>
+      <p>Всі права застережені &copy</p>
+      <p>
+        <a href="#">Вгору</a>
+     </p>
+    </footer>
+  </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
