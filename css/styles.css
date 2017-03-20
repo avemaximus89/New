@@ -58,6 +58,9 @@ h1,h2,h3{
 .footer{
   font-size: 8px;
 }
+.no-padding{
+  padding-bottom: 0px;
+}
 
 /*Index page*/
 
@@ -66,7 +69,8 @@ h1,h2,h3{
   margin-right: auto;
 }
 .carousel-caption p{
-  color:black;
+  font-weight: 200;
+  font-size: 25px;
 }
 .info-part p{
   text-indent: 30px;
@@ -90,6 +94,9 @@ h1,h2,h3{
 }
 
 /*Cardio page*/
+.add-part p{
+  padding-bottom: 30px;
+}
 
 .cardio-img-bypass{
   width: 120px;
